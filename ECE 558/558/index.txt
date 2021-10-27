@@ -1,0 +1,2 @@
+V	310911134241Z		1000	unknown	/C=CN/ST=Jiangsu/O=Duke University/OU=ECE department/CN=RuiYang_558_hw1_intermediate/emailAddress=ry70@duke.edu
+V	220923134801Z		1001	unknown	/C=CN/ST=Jiangsu/O=Duke University/OU=ECE department/CN=RuiYang_558_hw1_domain/emailAddress=ry70@duke.edu
