@@ -1,0 +1,13 @@
+{
+     "files.associations": {
+          "typeinfo": "cpp",
+          "iosfwd": "cpp",
+          "filesystem": "cpp",
+          "bitset": "cpp",
+          "string_view": "cpp",
+          "iostream": "cpp",
+          "string": "cpp",
+          "ostream": "cpp",
+          "iterator": "cpp"
+     }
+}

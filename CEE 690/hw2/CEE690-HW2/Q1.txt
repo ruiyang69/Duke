@@ -1,0 +1,15 @@
+According to the graph, and use accuracy as metric, ideal K value would be around 8-18.
+
+To use error rate instead of AUC, the developer may assume the data is balanced from different properties as AUC is robust to imbalanced classes but accuracy is not. Also, accuracy is largely influenced by the threshold for determine predictions but AUC is robust to threshold. 
+
+The data separation process should be done at the first place. Random data should be spited into multiple groups and cross-validation could be used to reduce imbalanced groups. 
+
+To select a subset of "good predictors" before data separation is unfair and does not mimic the correct application of classifiers to a completely independent test set as the predictors have already seen those data at the first place.
+
+To correct:
+1. Split random dataset into multiple cross-validation groups
+2. Inside each group, do:
+	a. Screen a good subset of predictors which has relatively high correlation with class labels
+	b. Use all data except those in current group
+	c. Use just these subset of predictors and build a multi-variate classifier
+	d. Use the classifier to predict the class labels for those inside current group
